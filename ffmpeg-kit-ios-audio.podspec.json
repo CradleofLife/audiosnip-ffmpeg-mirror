@@ -1,0 +1,26 @@
+{
+  "name": "ffmpeg-kit-ios-audio",
+  "version": "6.0",
+  "summary": "FFmpegKit Audio library for iOS (LGPL-safe mirror).",
+  "description": "FFmpegKit v6.0 Audio variant — built with audio-only codecs (mp3lame, libvorbis, opus, shine, soxr, speex, twolame, vo-amrwbenc). LGPL-3.0 licensed. Mirror of binaries deleted from arthenica/ffmpeg-kit upstream.",
+  "homepage": "https://github.com/arthenica/ffmpeg-kit",
+  "license": { "type": "LGPL-3.0" },
+  "authors": { "Taner Sener": "open-source@arthenica.com" },
+  "source": {
+    "http": "https://github.com/CradleofLife/audiosnip-ffmpeg-mirror/releases/download/v6.0-audio/ffmpeg-kit-audio-6.0-ios-xcframework.zip",
+    "sha256": "29c14aec3a7f0ad43e66de1c3e48b858cb77b197cbd72c366eba1c9a4babcbf7"
+  },
+  "platforms": { "ios": "12.1" },
+  "vendored_frameworks": [
+    "ffmpegkit.xcframework",
+    "libavcodec.xcframework",
+    "libavdevice.xcframework",
+    "libavfilter.xcframework",
+    "libavformat.xcframework",
+    "libavutil.xcframework",
+    "libswresample.xcframework",
+    "libswscale.xcframework"
+  ],
+  "static_framework": true,
+  "requires_arc": true
+}
